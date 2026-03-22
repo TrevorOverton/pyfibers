@@ -66,6 +66,10 @@ waveform = interp1d(
     [start, on, off, time_stop], [0, 1, 0, 0], kind="previous"
 )  # biphasic rectangular pulse
 
+
+waveform = interp1d(
+    [start, 0.1, 0.2, 2.1, 2.2, time_stop], [0, 1, 0, 1, 0, 0], kind="previous"
+) 
 fiber.potentials = fiber.point_source_potentials(0, 250, fiber.length / 2, 1, 10)
 
 # Create stimulation object
@@ -89,7 +93,7 @@ plt.plot(
     color='royalblue',
     linewidth=2,
 )
-plt.xlim(0, 2)
+plt.xlim(0, 10)
 plt.legend()
 plt.xlabel('Time (ms)')
 plt.ylabel('$V_m$ $(mV)$')
