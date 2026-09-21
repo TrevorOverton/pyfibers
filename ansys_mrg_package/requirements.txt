@@ -1,6 +1,0 @@
-# Tested with Python 3.12 on Linux. See README for Windows NEURON setup.
-pyfibers==0.10.1
-neuron==9.0.2
-numpy>=2.2,<3
-scipy>=1.16,<2
-matplotlib>=3.9,<4
