@@ -67,16 +67,16 @@ waveform = interp1d(
 )  # biphasic rectangular pulse
 
 
-waveform = interp1d(
-    [start, 0.1, 0.2, 2.1, 2.2, time_stop], [0, 1, 0, 1, 0, 0], kind="previous"
-) 
+# waveform = interp1d(
+#     [start, 0.1, 0.2, 2.1, 2.2, time_stop], [0, 1, 0, 1, 0, 0], kind="previous"
+# ) 
 fiber.potentials = fiber.point_source_potentials(0, 250, fiber.length / 2, 1, 10)
 
 # Create stimulation object
 stimulation = ScaledStim(waveform=waveform, dt=time_step, tstop=time_stop)
 
 fiber.record_vm()
-ap, time = stimulation.run_sim(-1.5, fiber)
+ap, time = stimulation.run_sim(-1, fiber)
 print(f'Number of action potentials detected: {ap}')
 print(f'Time of last action potential detection: {time} ms')
 
