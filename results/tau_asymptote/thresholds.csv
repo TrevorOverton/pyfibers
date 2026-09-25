@@ -1,0 +1,13 @@
+waveform,tau_ms,polarity,normalization,criterion,status,lower_v,upper_v,coarse_nonmonotonic,signed_upper_drive_v,upper_first_phase_peak_abs_v
+rectangular,,1,asymptote,distal,no_activation_observed_on_grid,,,False,,
+exponential,0.01,1,asymptote,distal,no_activation_observed_on_grid,,,False,,
+exponential,0.03,1,asymptote,distal,no_activation_observed_on_grid,,,False,,
+exponential,0.1,1,asymptote,distal,no_activation_observed_on_grid,,,False,,
+exponential,0.3,1,asymptote,distal,no_activation_observed_on_grid,,,False,,
+exponential,1.0,1,asymptote,distal,no_activation_observed_on_grid,,,False,,
+rectangular,,-1,asymptote,distal,no_activation_observed_on_grid,,,False,,
+exponential,0.01,-1,asymptote,distal,no_activation_observed_on_grid,,,False,,
+exponential,0.03,-1,asymptote,distal,no_activation_observed_on_grid,,,False,,
+exponential,0.1,-1,asymptote,distal,no_activation_observed_on_grid,,,False,,
+exponential,0.3,-1,asymptote,distal,no_activation_observed_on_grid,,,False,,
+exponential,1.0,-1,asymptote,distal,no_activation_observed_on_grid,,,False,,

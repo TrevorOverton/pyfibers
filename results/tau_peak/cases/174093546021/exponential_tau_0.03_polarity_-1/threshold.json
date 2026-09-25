@@ -1,0 +1,13 @@
+{
+  "waveform": "exponential",
+  "tau_ms": 0.03,
+  "polarity": -1,
+  "normalization": "peak",
+  "criterion": "distal",
+  "status": "no_activation_observed_on_grid",
+  "lower_v": null,
+  "upper_v": null,
+  "coarse_nonmonotonic": false,
+  "signed_upper_drive_v": null,
+  "upper_first_phase_peak_abs_v": null
+}

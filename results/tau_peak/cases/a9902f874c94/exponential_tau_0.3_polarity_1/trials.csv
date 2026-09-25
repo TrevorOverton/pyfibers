@@ -1,0 +1,7 @@
+waveform,tau_ms,polarity,magnitude_v,accepted,first_active_spike_ms,first_detector_spike_ms,detector_spike_count,first_spike_phase,end_initiation_flag,max_vm_mv
+exponential,0.3,1,0.0,False,,,0,none,False,-79.96028892286104
+exponential,0.3,1,1.0,False,,,0,none,False,-79.95730110073738
+exponential,0.3,1,1.8738174228603839,False,,,0,none,False,-79.95098066566035
+exponential,0.3,1,3.511191734215131,False,,,0,none,False,-79.93913427863261
+exponential,0.3,1,6.579332246575679,False,,,0,none,False,-79.91692558247702
+exponential,0.3,1,12.32846739442066,False,,,0,none,False,-79.87527262903153
